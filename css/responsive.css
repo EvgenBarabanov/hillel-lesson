@@ -1,0 +1,283 @@
+@media (max-width: 800px) {
+    body {
+      min-width: 320px;   
+    }
+
+    .intro,
+    header,
+    .text-box-wrapper,
+    .clients-wrapper,
+    .contact-us-wrapper,
+    footer {
+      width: 100%;
+    }
+
+    .wrap,
+    .header-logo,
+    .aside,
+    .about-us,
+    .text-box,
+    .portfolio,
+    .clients,
+    .contact-us,
+    form {
+      width: 100%;
+      padding: 10px;
+    }
+
+    .about-us h2,
+    .portfolio h2,
+    .clients h2,
+    .contact-us h2,
+    .text-box h2 {
+      font-size: 15px;
+    }
+
+    .about-us h2 span,
+    .portfolio h2 span,
+    .clients h2 span,
+    .contact-us h2 span,
+    .info,
+    .text-box p {
+      font-size: 12px;
+    }
+
+    /*header*/
+
+    .wrap {
+      min-height: 400px;
+    }
+
+    .wrap span {
+      margin-bottom: 20px;
+      font-size: 10px;
+    }
+
+    .wrap h1 {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+    .button {
+      padding: 11px 43px 12px 45px;
+      font-size: 8px;
+    }
+
+		.explone {
+      margin-bottom: 30px;
+    }
+
+    .icon-Arrow {
+      width: 20px;
+      height: 10px;
+      font-size: 10px;
+    }
+
+    /*header*/
+    /*burger-menu*/
+    #menu{
+    	display: none;
+    }
+    #trigger{
+    	display:inline-block;
+	    margin:3px;
+	    cursor:pointer;
+	    position: absolute;
+	    right: 20px;
+	    top: 20px;
+	    z-index: 11;
+    }
+    #trigger i{
+   		display:block;
+	    width:50px;
+	    height:5px;
+	    margin:3px auto;
+	    background:#8e8e8e;
+    }
+    #menu.show{
+	  	display: block;
+		  }
+	  ul.show li.active a{
+			color: #f3dd13;
+			font-size: 25px;
+		}
+
+		.nav a.active,
+		.nav a:hover {
+    color: #f3dd13;
+    border: none;
+	   }
+	 
+    
+
+    /*about-us*/
+
+    .about-us {
+      min-height: 400px;
+      padding: 10px;
+    }
+
+    .about-us ul {
+      flex-direction: column;
+      justify-content: center;
+     	margin: 0 auto;
+    }
+
+    .about-us-list li {
+     	width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .about-us-list li p {
+      margin-top: 10px;
+      font-size: 10px;
+    }
+
+    .about-us-list strong {
+      font-size: 12px;
+    }
+
+    /*text-box-wrapper*/
+
+    .text-box {
+      min-height: 300px;
+    }
+
+    .text-box h2 {
+      margin-bottom: 15px;
+      line-height: 20px
+    }
+
+    /*portfolio*/
+
+    .portfolio {
+        min-height: 600px;
+    }
+
+    .portfolio-list {
+			display: flex;
+    	justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: -29px;
+      margin-left: -15px;
+    }
+
+    .portfolio-list li {
+      width: 150px;
+      height: 150px;
+      margin-left: 15px;
+    }
+
+    .portfolio-list li div {
+      width: 150px;
+      height: 150px;
+      margin-left: 15px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .portfolio h2 span {
+      margin-bottom: 50px;
+		 }
+
+    .portfolio-list li div {
+      display: none;
+    }
+
+    .icon-Arrow-black {
+      font-weight: 400;
+      font-size: 10px;
+    }
+
+    .info {
+      margin-bottom: 30px;
+    }
+
+    /*clients-wrapper*/
+
+    .clients-list {
+    flex-wrap: wrap;
+    margin-top: 0;
+		}
+
+    .clients{
+    	min-height: 250px;
+    }
+
+   	.clients h2 span{
+   		margin-top: 0;
+   	}
+
+    /*Contact-us-wrapper*/
+
+		.contact-us {
+    	min-height: 600px;
+  	}
+
+  	.contact-us span {
+    	margin-bottom: 30px;
+  	}
+
+		.checkbox,
+		.radiobox,
+		.username,
+		.email {
+    	width: 100%;
+		}
+
+		input[type="text"],
+		input[type="email"],
+		textarea,
+		input[type="submit"] {
+    	width: 100%;
+    	padding: 11px 13px;
+    	font-size: 12px;
+    }
+
+    .holder,
+    .user{
+    	display: flex;
+    	flex-direction: column;
+    } 
+
+    .checkbox,
+    .radiobox,
+    .username{
+    	display: flex;
+   		flex-direction: column;
+   		margin-right: 0;
+    }
+
+    .checkbox input,
+    .checkbox label,
+    .radiobox input,
+    .radiobox label{
+    	margin-bottom: 15px;
+    }
+
+    label[for="example"],
+		label[for="radio-example"]{
+			margin-right: 0;
+		}
+
+		.username {
+			 margin-bottom: 20px;
+		}
+
+		.holder label,
+    input[type="text"]::placeholder,
+		input[type="email"]::placeholder,
+		textarea::placeholder{
+			font-size: 12px;
+		}
+
+		/*footer*/
+
+		footer{
+			min-height: 50px;
+		}
+
+		.social-networks li:not(:last-child){
+    	margin-right: 10px;
+		}
+}
